@@ -1,7 +1,7 @@
 PROJECT_DIR = $(network)/$(shell date +'%Y-%m-%d')-$(task)
 DEPLOY_DIR = $(network)/$(shell date +'%Y-%m-%d')-deploy
 INCIDENT_DIR = $(network)/$(shell date +'%Y-%m-%d')-$(incident)
-TEMPLATE_GENERIC = setup-templates/template-generic
+TEMPLATER_GENERIC = setup-templates/template-generic
 TEMPLATE_DEPLOY = setup-templates/template-deploy
 TEMPLATE_INCIDENT = setup-templates/template-incident
 
